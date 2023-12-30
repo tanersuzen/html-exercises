@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE_Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables & Forms</title>
+</head>
+<body>
+    <table border= 2>
+        <thead> <!-- table head -->
+            <th>Name</th>
+            <th>Salary</th>
+            <th>Department</th>
+            <th>Age</th>
+        </thead>
+        <tr> <!-- table row -->
+            <td>James Hetfield</td>
+            <td>160</td>
+            <td>Vocal</td>
+            <td>63</td>
+        </tr>
+
+        <tr> <!-- table row -->
+            <td>Lars Ulrich</td>
+            <td>150</td>
+            <td>Drums</td>
+            <td>62</td>
+        </tr>
+
+    </table>
+
+    <br><br><br>
+
+    <form action="images.html">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="Name">
+        <br>
+        <label for="salary">Salary:</label>
+        <input type="text" id="salary" name="Salary">
+        <br>
+        <input type="submit">   
+    </form>
+
+    <br><br><br>
+
+    <form action="htmlbasics.html">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your E-mail">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+        <br>
+        <input type="submit" value="Login">   
+    </form>
+
+    <br><br><br>
+
+    <form action="divspanhtml.html">
+        <p>Metallica or Megadeth?</p>
+        <label for="metallica">Metallica</label>
+        <input type="radio" id="metallica" name="Band" value="Metallica"> <!-- to have one option to select, we need to give same name for inputs -->
+        <br>
+        <label for="megadeth">Megadeth</label>
+        <input type="radio" id="megadeth" name="Band" value="Megadeth"> <!-- to understand the selected value, we have to define value different parameters for each input -->
+        <br>
+        <input type="submit" value="Select"> <!-- with this code, output will be like Band = Metallica or Band = Megadeth -->
+    </form>
+
+    <br><br><br>
+
+    <form action="htmllist.html">
+        <p>Rate your driver!</p>
+        <select name="rating" id="rating">
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+            <option>0</option>
+        </select>
+        <br>
+
+        <input type="submit" value="Select">
+    </form>
+
+</body>
+</html>
