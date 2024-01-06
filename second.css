@@ -1,0 +1,26 @@
+body {
+    font-family: Rubik Doodle Shadow;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#taner {
+    font-family: Bungee Spice;
+    border: 7px solid black;
+    padding: 3px;
+    margin-left: 640px;
+    margin-right: 640px;
+}
+
+#atil {
+    font-family: Bungee Spice;
+    border: 7px dashed brown;
+}
